@@ -1,0 +1,48 @@
+#mainwrapper{
+    max-width: 400px;
+    border: 1px solid black;
+    margin: 100px auto;
+    height: 500px;
+    position: relative;
+    font-family: 'Courier New', Courier, monospace;
+}
+.header{
+    background-color: rgba(158, 132, 132, 0.671);
+    height: 200px;
+}
+.contain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #eee;
+    height: 300px;
+}
+
+h2{
+    margin-top: 60px;
+    margin-right: 15px;
+    display: inline-block;
+
+}
+hr{
+    width: 100%;
+}
+.num{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.num2{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+img{
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 150px;
+    left: calc(50% - 50px);
+}
